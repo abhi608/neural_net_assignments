@@ -17,7 +17,7 @@ def mod_sigmoid(x):
 data = []
 output = []
 
-#----------------------------Reading test data--------------------------------------
+#----------------------------Reading train data--------------------------------------
 with open('data.csv', 'r') as csvfile:
 	all_data = csv.reader(csvfile, delimiter=' ', quotechar='|')
 	count = 0
